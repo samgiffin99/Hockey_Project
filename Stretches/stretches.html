@@ -6,14 +6,31 @@
 </head>
 
 <body>
-    <div class="container my-custom-container" id="main">main
+    <div class= "mb-4 rounded-3">
+        <div class = "container-fluid py-5">
+            <h1 class ="display-5 fw-bold" >Stretching excercises </h1>
+            <img src="" alt="">
+        </div>
+        </div>
+    <nav class = "navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li class="nav-item active" ><a class="nav-link" href="..\index.html">Home</a></li>
+            <li class="nav-item active" ><a class="nav-link" href="Stretches\stretches.html">Stretching excersises app</a></li>
+            <li class="nav-item active" ><a class="nav-link" href="..\rules.html">Hockey rules</a></li>
+        </ul>
+    </div>
+    </nav>
+    <div class="container my-custom-container mt-4" id="main" >main
         <div class="row">
             <!-- List Container -->
             <div class="col-md-4">
                 <div class="list-container my-custom-container" id="list">
                     <!-- Item Container -->
                     <div class="item-container my-custom-container" id="item">
-                        Item 1
+                        item 1
+                        <button type="button" onclick="detailsClick(this.id)">details</button>
+                        <button type="button" onclick="alert('Hello world!')">Click Me!</button>
                     </div>
                     <!-- Add more items as needed -->
                 </div>
